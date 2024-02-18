@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <td>title</td>
+            <td>description</td>
+            <td>published date</td>
+            <td>publisher.title</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Japan's Economy Slips Into Recession and to No. 4 in Global Ranking - The New York Times</td>
+            <td>Japan's Economy Slips Into Recession and to No. 4 in Global Ranking  The New York TimesJapan is no longer the world's third-largest economy as it slips into recession  CNBCJapan loses spot as world’s third-largest economy as GDP continues to shrink  MarketWatchJapan unexpectedly slips into a recession  BBC.com</td>
+            <td>Thu, 15 Feb 2024 07:56:15 GMT</td>
+            
+            <td>The New York Times</td>
+          </tr>
+          <tr>
+            <td>Stock Market Today: Dow Jones Rallies On Surprise Jobless Claims, Retail Sales; Coinbase Surges - Investor's Business Daily</td>
+            <td>Stock Market Today: Dow Jones Rallies On Surprise Jobless Claims, Retail Sales; Coinbase Surges  Investor's Business DailyDow outperforms as tech weakness drags Nasdaq into the red  MarketWatchRetail Sales, Jobless Claims To Set Tone After Hot CPI  Investor's Business DailyS&amp;P, Dow open higher as investors eye U.S. retail sales decline By Investing.com  Investing.comStock market today: Stocks mixed after retail sales tumble  Yahoo Finance</td>
+            <td>Thu, 15 Feb 2024 15:21:00 GMT</td>
+           
+            <td>Investor's Business Daily</td>
+          </tr>
+          <tr>
+            <td>US Porsche, Bentley and Audi imports held up over banned Chinese part - Financial Times</td>
+            <td>US Porsche, Bentley and Audi imports held up over banned Chinese part  Financial TimesImported luxury cars such as Audi held by US over banned part linked to forced labor in China  Fox BusinessBelarus Isn't The Reason VW Can't Sell Certain Cars Here, It's Chinese Slave Labor: Report  JalopnikUS: Volkswagen cars stuck in ports over banned part — report  DW (English)</td>
+            <td>Wed, 14 Feb 2024 18:27:40 GMT</td>
+           
+            <td>Financial Times</td>
+          </tr>
+          <tr>
+            <td>Airbus widens lead against Boeing but sees persistent supply chain bottlenecks - Financial Times</td>
+            <td>Airbus widens lead against Boeing but sees persistent supply chain bottlenecks  Financial TimesAirbus Pulls Further Ahead of Boeing in Global Plane Rivalry  The New York TimesAirbus reports Full-Year (FY) 2023 results  AirbusAirbus unveils special dividend, takes new charge in space  ReutersAirbus (AIR) Targets About 800 Deliveries as Boeing Struggles With Max  Bloomberg</td>
+            <td>Thu, 15 Feb 2024 13:19:47 GMT</td>
+           
+            <td>Financial Times</td>
+          </tr>
+          <tr>
+            <td>Warren Buffett and ‘Big Short’ investor Michael Burry have shown their cards in the streaming war, courtesy of big bets and major selloffs - Fortune</td>
+            <td>Warren Buffett and ‘Big Short’ investor Michael Burry have shown their cards in the streaming war, courtesy of big bets and major selloffs  FortuneStanley Druckenmiller exits Alphabet, keeps winning AI plays Nvidia and Microsoft  CNBCMichael Burry’s Scion Asset Management scoops up shares of Alphabet, Amazon  MarketWatchMichael Burry Adds to China Big Tech Wager as Stock Rout Deepens  Yahoo Finance</td>
+            <td>Thu, 15 Feb 2024 12:20:00 GMT</td>
+           
+            <td>Fortune</td>
+          </tr>
+          <tr>
+            <td>Retail sales tumbled 0.8% in January, much more than expected - CNBC</td>
+            <td>Retail sales tumbled 0.8% in January, much more than expected  CNBCRetail sales post steepest decline since March 2023  Yahoo FinanceRetail sales tumble much more than expected in January  Fox BusinessUS retail sales declined in January by much more than expected  CNN</td>
+            <td>Thu, 15 Feb 2024 13:32:20 GMT</td>
+           
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin Hits $52K as BTC Exchange Liquidity Grows at Blistering Pace - Decrypt</td>
+            <td>Bitcoin Hits $52K as BTC Exchange Liquidity Grows at Blistering Pace  DecryptBitcoin market cap crosses $1 trillion as buyers flood in  Yahoo FinanceBitcoin Is Back, Back, Back, Baby  CoinDeskBitcoin regains $1 trillion market cap as the cryptocurrency hits over two-year high  CNBCBitcoin euphoria is back as investors prepare for the quadrennial ‘halving’  CNN</td>
+            <td>Thu, 15 Feb 2024 10:09:16 GMT</td>
+           
+            <td>Decrypt</td>
+          </tr>
+          <tr>
+            <td>Stocks Advance After S&amp;P 500 Reclaims 5000 Level: Markets Wrap - Yahoo Finance</td>
+            <td>Stocks Advance After S&amp;P 500 Reclaims 5000 Level: Markets Wrap  Yahoo FinanceJapan slips into a recession and loses its spot as the world's third-largest economy  The Associated PressCNBC Daily Open: Lingering inflation problem  CNBCAsian stocks buoyed by tech; Japan coasts past Q4 recession By Investing.com  Investing.com</td>
+            <td>Thu, 15 Feb 2024 10:58:11 GMT</td>
+           
+            <td>Yahoo Finance</td>
+          </tr>
+          <tr>
+            <td>True Religion explores a sale as maximalist, Y2K-era styles make a comeback - CNBC</td>
+            <td>True Religion explores a sale as maximalist, Y2K-era styles make a comeback  CNBC</td>
+            <td>Thu, 15 Feb 2024 13:37:30 GMT</td>
+          
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>Elon Musk Extends His Anywhere-but-Delaware Campaign - The New York Times</td>
+            <td>Elon Musk Extends His Anywhere-but-Delaware Campaign  The New York TimesHarvard law professor on Elon Musk: 'Over the past 100 years, Delaware has periodically irritated one or two executives by enforcing the law'  Yahoo FinanceTesla's Chair Under Scrutiny for Oversight of Elon Musk  The New York TimesElon Musk moves SpaceX to Texas after Delaware revoked his Tesla salary package  Fox BusinessMusk might be searching for a new place to test SpaceX starships  Fortune</td>
+            <td>Thu, 15 Feb 2024 13:06:24 GMT</td>
+            
+            <td>The New York Times</td>
+          </tr>
+          <tr>
+            <td>Paramount Global Stock Slides After Warren Buffett Chops Stake - Hollywood Reporter</td>
+            <td>Paramount Global Stock Slides After Warren Buffett Chops Stake  Hollywood ReporterBerkshire trims Apple, sheds four stocks, mum on new investment  Yahoo FinanceEXCLUSIVE: Buffett still considers Apple stock a core holding despite stake sale - analyst By Investing.com  Investing.com</td>
+            <td>Thu, 15 Feb 2024 15:34:19 GMT</td>
+            
+            <td>Hollywood Reporter</td>
+          </tr>
+          <tr>
+            <td>How Google is sticking to – and soaring past – its DEI goals - BBC.com</td>
+            <td>How Google is sticking to – and soaring past – its DEI goals  BBC.com</td>
+            <td>Thu, 15 Feb 2024 12:24:01 GMT</td>
+       
+            <td>BBC.com</td>
+          </tr>
+          <tr>
+            <td>Stellantis profit sharing: Here's how much UAW members will get for 2023 - Detroit News</td>
+            <td>Stellantis profit sharing: Here's how much UAW members will get for 2023  Detroit NewsJeep, Dodge-maker Stellantis' profit slides as Detroit Three strikes bite  CNBCStellantis warns of turbulent 2024  Yahoo FinanceStellantis (STLA) Margins Drop on Strike Disruption; Announces Buyback  BloombergFull Year 2023 Results  Stellantis</td>
+            <td>Thu, 15 Feb 2024 08:02:17 GMT</td>
+
+            <td>Detroit News</td>
+          </tr>
+          <tr>
+            <td>Major Weirton employer, Cleveland-Cliffs, announces plant idling and about 900 job losses - West Virginia MetroNews</td>
+            <td>Major Weirton employer, Cleveland-Cliffs, announces plant idling and about 900 job losses  West Virginia MetroNewsCleveland-Cliffs to indefinitely idle Weirton tinplate plant, affecting 900 employees  cleveland.comCleveland-Cliffs says “unfavorable” ITC ruling will lead to indefinite closure of Weirton tinplate mill  Wheeling IntelligencerCleveland-Cliffs to Idle Weirton Tinplate Facility Following Unfavorable ITC Ruling  WTRF</td>
+            <td>Thu, 15 Feb 2024 13:48:21 GMT</td>
+  
+            <td>West Virginia MetroNews</td>
+          </tr>
+          <tr>
+            <td>Coinbase Stock Upgraded Ahead Of Earnings As Bitcoin Price Clears $52000 - Investor's Business Daily</td>
+            <td>Coinbase Stock Upgraded Ahead Of Earnings As Bitcoin Price Clears $52000  Investor's Business DailyCoinbase upgraded to Neutral while bitcoin rises above $52K  Yahoo FinanceCoinbase to Report Strong Earnings, ETF Benefits May Surprise Wall Street, Analysts Say  CoinDeskCoinbase Is on the Verge of Surprising Wall Street With a Return to Profitability  Bloomberg</td>
+            <td>Thu, 15 Feb 2024 14:23:00 GMT</td>
+       
+            <td>Investor's Business Daily</td>
+          </tr>
+          <tr>
+            <td>UK economy slipped into technical recession at the end of 2023 - CNBC</td>
+            <td>UK economy slipped into technical recession at the end of 2023  CNBCBritain falls into recession, with worst GDP performance in 2023 in years  CNNU.K. Economy Shrank as 2023 Ended, Tipping Into Recession  The New York TimesUK tips into recession in blow to Rishi Sunak  The GuardianUK Recession Deals Fresh Blow to Sunak's Economic Promises  Bloomberg</td>
+            <td>Thu, 15 Feb 2024 07:05:06 GMT</td>
+     
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>FULL LIST of more than 100 products recalled due to listeria concerns and the items sold in Ohio - WHIO</td>
+            <td>FULL LIST of more than 100 products recalled due to listeria concerns and the items sold in Ohio  WHIOListeria outbreak: Dairy products affected and what to do if they're in your refrigerator  Fox BusinessDole Salad Kits Sold In 25 States Recalled For Potential Listeria Contamination  Southern LivingMore than 100 products recalled due to listeria concerns; items sold in Ohio  WHIOWhat to Know About the Risk of Food Poisoning From Listeria  The New York Times</td>
+            <td>Thu, 15 Feb 2024 15:26:33 GMT</td>
+          
+            <td>WHIO</td>
+          </tr>
+          <tr>
+            <td>GM is preparing for another major expansion of its hands-free Super Cruise system - The Verge</td>
+            <td>GM is preparing for another major expansion of its hands-free Super Cruise system  The VergeGM's Super Cruise Network Is Growing to about 750K Miles of Roads  Car and DriverGM's Super Cruise expansion adds 750,000 miles of rural roads  EngadgetGM Super Cruise routes expanded to rural areas  Automotive News</td>
+            <td>Thu, 15 Feb 2024 12:00:00 GMT</td>
+         
+            <td>The Verge</td>
+          </tr>
+          <tr>
+            <td>TSMC (NYSE:TSM) Jumps after Morgan Stanley Lifts Nvidia's Price Target - TipRanks.com - TipRanks</td>
+            <td>TSMC (NYSE:TSM) Jumps after Morgan Stanley Lifts Nvidia's Price Target - TipRanks.com  TipRanksTSMC shares hit record high after Morgan Stanley lifts client Nvidia's price target on AI chip demand  CNBCWhere Will Taiwan Semiconductor Stock Be in 1 Year?  The Motley FoolTaiwan's Stocks Surge After Lunar New Year Break - TaiwanPlus News  Grand Junction Daily Sentinel</td>
+            <td>Thu, 15 Feb 2024 11:48:23 GMT</td>
+            
+            <td>TipRanks</td>
+          </tr>
+          <tr>
+            <td>X accused of taking payments from terrorists - BBC.com</td>
+            <td>X accused of taking payments from terrorists  BBC.comView Full Coverage on Google News</td>
+            <td>Thu, 15 Feb 2024 10:01:41 GMT</td>
+            
+            <td>BBC.com</td>
+          </tr>
+          <tr>
+            <td>Occidental Petroleum Eases Permian Basin Focus As Warren Buffett Buys More Shares - Investor's Business Daily</td>
+            <td>Occidental Petroleum Eases Permian Basin Focus As Warren Buffett Buys More Shares  Investor's Business DailyOccidental (OXY) to Report Q4 Earnings: What's in Store?  Yahoo FinanceOccidental Cuts Two Permian Rigs as It Targets Flat Oil, Gas Output  BloombergOccidental Petroleum (NYSE:OXY) Reports Solid Q4 Results - TipRanks.com  TipRanksOxy Beats Expectations with Robust Q4 Results  OilPrice.com</td>
+            <td>Thu, 15 Feb 2024 13:50:00 GMT</td>
+            
+            <td>Investor's Business Daily</td>
+          </tr>
+          <tr>
+            <td>History Says the Nasdaq Will Surge in 2024: 3 Artificial Intelligence (AI) Stocks to Buy Before It Does - The Motley Fool</td>
+            <td>History Says the Nasdaq Will Surge in 2024: 3 Artificial Intelligence (AI) Stocks to Buy Before It Does  The Motley Fool3 Artificial Intelligence (AI) Stocks to Buy With $500 and Hold Forever  Yahoo FinanceDow tumbles 500 points, posts worst day since March 2023 after hot inflation report: Live updates  CNBCNot everyone is buying the hype of AI darling Arm, which has suddenly become Wall Street's favorite stock  Fortune3 Hidden-Gem AI Stocks Ready to Ride a Massive Market Wave  InvestorPlace</td>
+            <td>Thu, 15 Feb 2024 11:10:00 GMT</td>
+     
+            <td>The Motley Fool</td>
+          </tr>
+          <tr>
+            <td>Uber drivers strike for higher pay at San Francisco headquarters - NBC Bay Area</td>
+            <td>Uber drivers strike for higher pay at San Francisco headquarters  NBC Bay AreaUber and Lyft drivers plan Valentine’s Day strikes  The Associated PressUber and Lyft drivers in Chicago plan airport strikes on Valentine's Day  Chicago TribuneValentine's Day protest: Uber and Lyft drivers across the US are pushing for higher pay  Business InsiderLyft guarantees weekly earnings to lure more drivers  Reuters</td>
+            <td>Thu, 15 Feb 2024 02:23:44 GMT</td>
+           
+            <td>NBC Bay Area</td>
+          </tr>
+          <tr>
+            <td>Renault shares pop as carmaker plans dividend hike - CNBC</td>
+            <td>Renault shares pop as carmaker plans dividend hike  CNBCInvestor cash haul gives Stellantis, Renault shares a lift  ReutersRenault swung to $2.5B profit in 2023 from loss in 2022  Automotive News EuropeRenault Shares Jump on Higher Dividend, Earnings Beat  MarketWatchRenault bounces back in 2023 with net profit of 2.2 bn euros  Port Lavaca Wave</td>
+            <td>Thu, 15 Feb 2024 09:01:23 GMT</td>
+       
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>Does Evergrande's Collapse Threaten China's Economy? - Council on Foreign Relations</td>
+            <td>Does Evergrande's Collapse Threaten China's Economy?  Council on Foreign RelationsUS vs. China economy: How 2008 bust compares to housing crash now  Business Insider</td>
+            <td>Tue, 13 Feb 2024 22:39:00 GMT</td>
+        
+            <td>Council on Foreign Relations</td>
+          </tr>
+          <tr>
+            <td>Cisco Systems to lay off more than 4000 workers in latest sign of tighter times in tech - The Associated Press</td>
+            <td>Cisco Systems to lay off more than 4000 workers in latest sign of tighter times in tech  The Associated PressCisco says it's cutting 5% of global workforce, amounting to over 4,000 jobs  CNBCCisco slashes full-year guidance, cutting 5% of workforce  Yahoo FinanceCisco to lay off thousands of employees  CNNBay Area tech giant Cisco to lay off more than 4,000, again  SFGATE</td>
+            <td>Wed, 14 Feb 2024 23:45:00 GMT</td>
+           
+            <td>The Associated Press</td>
+          </tr>
+          <tr>
+            <td>Best Presidents Day deals 2024: sales on TVs, wireless earbuds, and more - The Verge</td>
+            <td>Best Presidents Day deals 2024: sales on TVs, wireless earbuds, and more  The Verge144 best early Presidents Day 2024 sales to shop before the holiday weekend  CNN Underscored10 kitchen appliances you’ll find on sale at Amazon this Presidents Day  Fox NewsThe 40+ best early Presidents' Day Amazon deals to shop this week: Get up to 75% off vacuums, TVs and more  Yahoo LifeThe 75 Best Presidents Day Sales You Can Shop at Amazon, Target, Apple, More  PEOPLE</td>
+            <td>Wed, 14 Feb 2024 23:05:45 GMT</td>
+          
+            <td>The Verge</td>
+          </tr>
+          <tr>
+            <td>Nvidia is now worth more than Alphabet, one day after surpassing Amazon - CNN</td>
+            <td>Nvidia is now worth more than Alphabet, one day after surpassing Amazon  CNNNvidia is now the third most valuable company, thanks to AI  QuartzNvidia passes Alphabet in market cap and is now the third most valuable U.S. company  CNBCAnalysts unveil new stock price target for Nvidia ahead of earnings  Yahoo FinanceNvidia's worth more than Alphabet, Amazon: 4 charts show its surge to $1.8T  Business Insider</td>
+            <td>Wed, 14 Feb 2024 21:29:00 GMT</td>
+            
+            <td>CNN</td>
+          </tr>
+          <tr>
+            <td>High interest rates help Germany's Commerzbank post best results in 15 years - CNBC</td>
+            <td>High interest rates help Germany's Commerzbank post best results in 15 years  CNBCGermany's Commerzbank posts biggest profit in 15 years, shares gain  ReutersCommerzbank 4Q Rev EUR2.41B  MarketWatchCommerzbank Predicts Higher Profit as Fees Offset Rate Impact  BloombergCommerzbank reports record profits, boosted by higher interest rates  Yahoo News</td>
+            <td>Thu, 15 Feb 2024 08:26:08 GMT</td>
+      
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>Google is making a map of methane leaks for the whole world to see - Business Insider</td>
+            <td>Google is making a map of methane leaks for the whole world to see  Business InsiderGoogle joins a mission to map global methane emissions from space  The VergeA new satellite will use Google's AI to map methane leaks from space  MIT Technology ReviewGoogle to share oil and gas methane leaks spotted from space  ReutersGoogle to Help Track Methane Emissions in Space Using AI, Mapping Expertise  Bloomberg</td>
+            <td>Thu, 15 Feb 2024 10:30:00 GMT</td>
+            
+            <td>Business Insider</td>
+          </tr>
+          <tr>
+            <td>This 85-year-old oil tycoon is unsure how to spend his billions - Business Insider</td>
+            <td>This 85-year-old oil tycoon is unsure how to spend his billions  Business InsiderTwo Big Texas Oil Producers Announce $26 Billion Merger  The New York TimesDiamondback Energy Follows ExxonMobil and Occidental Petroleum with a Permian Megadeal  Yahoo FinanceYou Belong With Me - Diamondback/Endeavor Duo Challenges Taylor and Travis for Couple-of-the-Year Honors  RBN Energy</td>
+            <td>Thu, 15 Feb 2024 10:00:00 GMT</td>
+      
+            <td>Business Insider</td>
+          </tr>
+          <tr>
+            <td>Two OpenAI book lawsuits partially dismissed by California court - The Guardian</td>
+            <td>Two OpenAI book lawsuits partially dismissed by California court  The GuardianTake the Cash or Fight? Media Moguls Split on AI Deals  Hollywood ReporterHow AI copyright lawsuits could make the whole industry go extinct  The VergeJudge rejects most ChatGPT copyright claims from book authors  Ars TechnicaCourt Trims Authors' Copyright Lawsuit Against Open AI  Publishers Weekly</td>
+            <td>Thu, 15 Feb 2024 02:31:00 GMT</td>
+         
+            <td>The Guardian</td>
+          </tr>
+          <tr>
+            <td>An earnings typo sent Lyft's stock price into the stratosphere - Engadget</td>
+            <td>An earnings typo sent Lyft's stock price into the stratosphere  EngadgetTypo in Lyft earnings sends shares aloft nearly 70%  Yahoo FinanceLyft's CEO Gave a Humble 6-Word Response to a “2 Billion Dollar” Mistake. It's a Lesson in Emotional Intelligence  Inc.Breakingviews - Lyft's blunder underscores value of own thinking  ReutersLyft CEO takes blame for 'extra zero that slipped into' earnings release  CNBC</td>
+            <td>Wed, 14 Feb 2024 19:39:04 GMT</td>
+
+            <td>Engadget</td>
+          </tr>
+          <tr>
+            <td>OpenAI shuts down China, Russia, Iran, N Korea accounts caught doing naughty things - The Register</td>
+            <td>OpenAI shuts down China, Russia, Iran, N Korea accounts caught doing naughty things  The RegisterStaying ahead of threat actors in the age of AI  MicrosoftMicrosoft reports details AI use by China, Russia, North Korea, Iran  The Washington PostMicrosoft and OpenAI say hackers are using ChatGPT to improve cyberattacks  The VergeMicrosoft says US rivals are beginning to use generative AI in offensive cyber operations  The Associated Press</td>
+            <td>Thu, 15 Feb 2024 00:10:00 GMT</td>
+        
+            <td>The Register</td>
+          </tr>
+          <tr>
+            <td>Colorado sues to block Kroger and Albertsons merger - Axios</td>
+            <td>Colorado sues to block Kroger and Albertsons merger  AxiosColorado Sues to Stop $25 Billion Kroger-Albertsons Merger  U.S News &amp; World Report MoneyColorado attorney general trying to stop grocer merge with federal lawsuit  KKTVRoundup: Acquisition of Albertsons / Drug shortages / Elections security  Greater Baton Rouge Business Report'Bought by the enemy': Colorado sues to block Albertsons/Kroger deal, claims companies colluded  boisedev.com</td>
+            <td>Thu, 15 Feb 2024 09:59:56 GMT</td>
+         
+            <td>Axios</td>
+          </tr>
+          <tr>
+            <td>CDs &amp; Treasurys are offering sky-high yields: Here's how to decide what's best for you Want returns that will last for years to come? Consider CDs or Treasurys. - Fortune</td>
+            <td>CDs &amp; Treasurys are offering sky-high yields: Here's how to decide what's best for you Want returns that will last for years to come? Consider CDs or Treasurys.  FortuneWhy you should open a CD following the new inflation report  CBS NewsTop CD Rates Today: 5.75% Remains Overall Leader, 5.56% Best From a Bank  InvestopediaCompare and save current CD rates: February 15, 2024  CNN UnderscoredCD Rates Today, Feb. 14, 2024: Earn More Than 3 Times the National Average With These CDs  CNET</td>
+            <td>Wed, 14 Feb 2024 16:31:00 GMT</td>
+    
+            <td>Fortune</td>
+          </tr>
+          <tr>
+            <td>After searing inflation, "American workers are getting ahead," Treasury Secretary Janet Yellen says - CBS News</td>
+            <td>After searing inflation, "American workers are getting ahead," Treasury Secretary Janet Yellen says  CBS NewsYellen says inflation moving down, market reaction a 'tremendous mistake'  Yahoo FinanceYellen promotes Biden economic agenda in Detroit visit  Detroit NewsIn Pittsburgh, Treasury Secretary says health care is economic issue  90.5 WESA</td>
+            <td>Wed, 14 Feb 2024 23:41:00 GMT</td>
+           
+            <td>CBS News</td>
+          </tr>
+          <tr>
+            <td>Fed's Goolsbee Calls Housing Inflation a 'Puzzle' - Bloomberg Television</td>
+            <td>Fed's Goolsbee Calls Housing Inflation a 'Puzzle'  Bloomberg TelevisionRate cuts likely won’t happen until the summer, Atlanta Fed chief says  CNNInflation Risks Leave Federal Reserve Officials Reluctant to Cut Rates  BloombergHere's when the Federal Reserve could cut interest rates in 2024  CNBCFed still on track even if inflation's path down is bumpy -Goolsbee  Reuters</td>
+            <td>Wed, 14 Feb 2024 16:35:06 GMT</td>
+           
+            <td>Bloomberg Television</td>
+          </tr>
+          <tr>
+            <td>Want $300 in Exceptionally Safe Annual Dividend Income? Invest $4,975 Into the Following 3 High-Yield Stocks. - Yahoo Finance</td>
+            <td>Want $300 in Exceptionally Safe Annual Dividend Income? Invest $4,975 Into the Following 3 High-Yield Stocks.  Yahoo Finance7 High-Yield Dividend Stocks for the Ultimate Retirement Portfolio  InvestorPlaceTop Wall Street analysts pick these 3 dividend stocks for the long haul  CNBC</td>
+            <td>Thu, 15 Feb 2024 10:06:00 GMT</td>
+           
+            <td>Yahoo Finance</td>
+          </tr>
+          <tr>
+            <td>The downside risks hidden in a 'normal' market pullback: Morning Brief - Yahoo Finance</td>
+            <td>The downside risks hidden in a 'normal' market pullback: Morning Brief  Yahoo FinanceInvestors need to be wary of 'reverse goldilocks' scenario  Yahoo FinanceWall Street pullbacks may present buying opportunities - Citi By Investing.com  Investing.com</td>
+            <td>Thu, 15 Feb 2024 11:00:04 GMT</td>
+           
+            <td>Yahoo Finance</td>
+          </tr>
+          <tr>
+            <td>EPAM Reports Results for Fourth Quarter and Full Year 2023 - EPAM</td>
+            <td>EPAM Reports Results for Fourth Quarter and Full Year 2023  EPAMView Full Coverage on Google News</td>
+            <td>Thu, 15 Feb 2024 11:04:54 GMT</td>
+       
+            <td>EPAM</td>
+          </tr>
+          <tr>
+            <td>Oil prices give up advance as U.S. crude stockpile surges - CNBC</td>
+            <td>Oil prices give up advance as U.S. crude stockpile surges  CNBCLatest Oil Market News and Analysis for Feb 15  BloombergUS crude stockpiles rise, products draw down as refining slumps - EIA  ReutersU.S. Oil Inventories Rise, Gasoline and Distillate Stocks See Strong Draws  OilPrice.comNatural Gas, WTI Oil, Brent Oil Forecasts – Oil Retreats As Crude Inventories Exceed Expectations  FX Empire</td>
+            <td>Wed, 14 Feb 2024 14:08:13 GMT</td>
+           
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>Blue Cross Blue Shield pauses transaction plans; LDI hearing canceled - WAFB</td>
+            <td>Blue Cross Blue Shield pauses transaction plans; LDI hearing canceled  WAFBBlue Cross shelves plans to sell to Elevance for a second time; regulatory hearings canceled  NOLA.comElevance Health, BCBSA put $2.5B merger on ice—again  FierceHealthcareElevance Health, Blue Cross of Louisiana call off merger again  Modern HealthcareBlue Cross of Louisiana scraps plans to sell to Elevance | Business | theadvocate.com  The Advocate</td>
+            <td>Wed, 14 Feb 2024 12:24:00 GMT</td>
+         
+            <td>WAFB</td>
+          </tr>
+          <tr>
+            <td>Romance fraud alert as reports up almost 60% - BBC.com</td>
+            <td>Romance fraud alert as reports up almost 60%  BBC.comBBB warns against Valentine’s Day scams  FOX 59 IndianapolisIs your online flirt a fake? The 100 most commonly used photos in romance scams revealed  KSAT San Antonio“Love Stinks” – when a scammer is involved  Federal Trade Commission News</td>
+            <td>Wed, 14 Feb 2024 23:40:33 GMT</td>
+          
+            <td>BBC.com</td>
+          </tr>
+          <tr>
+            <td>1 Wall Street Analyst Boosts Nvidia Price Target by 47%: Here's Why They're Right - Yahoo Finance</td>
+            <td>1 Wall Street Analyst Boosts Nvidia Price Target by 47%: Here's Why They're Right  Yahoo FinanceView Full Coverage on Google News</td>
+            <td>Thu, 15 Feb 2024 13:17:00 GMT</td>
+      
+            <td>Yahoo Finance</td>
+          </tr>
+          <tr>
+            <td>Nikkei closes above 38,000 for first time since 1990 as Japan GDP contraction allays policy shift concerns - CNBC</td>
+            <td>Nikkei closes above 38,000 for first time since 1990 as Japan GDP contraction allays policy shift concerns  CNBCJapan Nikkei Tracker: Latest Updates as Index Inches Towards Record High  BloombergNikkei Stock Average closes at 38157, fresh 34-year high  Nikkei AsiaJapan’s Nikkei hits 34-year high  CNNJapan's Nikkei pushes to 34-year peak as chip shares climb  Reuters</td>
+            <td>Thu, 15 Feb 2024 07:38:00 GMT</td>
+            
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>Luxury clothes reselling scheme: Woman charged in $800K operation - USA TODAY</td>
+            <td>Luxury clothes reselling scheme: Woman charged in $800K operation  USA TODAYMichigan Woman Arrested For Role In Fraud Scheme Involving Theft Of Over $800000 In Luxury And Designer Apparel And Accessories  Department of JusticeFraudster pocketed $750K by reselling items stolen from luxury rental sites: prosecutors  New York Post Michigan woman arrested for stealing designer clothes from multiple rental websites, reselling them online  KABC-TV</td>
+            <td>Thu, 15 Feb 2024 16:22:59 GMT</td>
+           
+            <td>USA TODAY</td>
+          </tr>
+          <tr>
+            <td>Alaska Airlines flight attendant says she has colleagues ‘going without food right now’ - KIRO Seattle</td>
+            <td>Alaska Airlines flight attendant says she has colleagues ‘going without food right now’  KIRO SeattleAlaska Air flight attendants authorize strike for first time in over 30 years  Fox BusinessFlight attendants picketing at Chicago O'Hare Airport seek new contracts, wages from Southwest, American, Alaska, United airlines  WLS-TVAlaska Airlines flight attendants authorize strike, raising stakes in contract talks  The Seattle TimesHawaii flight attendants picket amid worldwide protests  Honolulu Star-Advertiser</td>
+            <td>Wed, 14 Feb 2024 01:50:00 GMT</td>
+          
+            <td>KIRO Seattle</td>
+          </tr>
+          <tr>
+            <td>Republicans, Democrats get in heated debate over beneficial ownership regime - Axios</td>
+            <td>Republicans, Democrats get in heated debate over beneficial ownership regime  AxiosSmall cannabis businesses subject to new ownership reporting rule  Marijuana Business DailyHow to File a Beneficial Ownership Report for Your Small Business  CO— by the U.S. Chamber of CommerceBOI Compliance/Enforcement For Reporting Companies | Foodman CPAs &amp; Advisors - JDSupra  JD SupraLLCs And the Right to Know — Shawangunk Journal  Shawangunk Journal</td>
+            <td>Wed, 14 Feb 2024 20:24:21 GMT</td>
+            
+            <td>Axios</td>
+          </tr>
+          <tr>
+            <td>Twilio’s stock moves lower after earnings as revenue forecast comes in light - MarketWatch</td>
+            <td>Twilio’s stock moves lower after earnings as revenue forecast comes in light  MarketWatchTwilio stock drops on Q4 beat, declines to give 2024 outlook  Yahoo FinanceTwilio Shares Fall 14% After Guiding for Slower 1Q Revenue Growth  MarketWatchTwilio: Q4 Earnings Snapshot  QuartzTwilio (TWLO) Q4 Earnings and Revenues Surpass Estimates  MSN</td>
+            <td>Wed, 14 Feb 2024 21:20:00 GMT</td>
+           
+            <td>MarketWatch</td>
+          </tr>
+          <tr>
+            <td>'Inflation is sticky as hell': Prices rise more than expected in January, posing challenge for Biden - MSNBC</td>
+            <td>'Inflation is sticky as hell': Prices rise more than expected in January, posing challenge for Biden  MSNBCOpinion | Neither Trumpism Nor Bidenomics Has an Answer to Inflation  The New York TimesBiden sharpens attack on corporations after hotter-than-expected CPI  MarketWatchInflation is cooling. The GOP wants you to remember it's up 17.9% since Biden took office.  Yahoo FinanceLARRY KUDLOW: The Biden-created affordability crisis is worsening  Fox Business</td>
+            <td>Wed, 14 Feb 2024 06:15:00 GMT</td>
+           
+            <td>MSNBC</td>
+          </tr>
+          <tr>
+            <td>Mortgage demand tumbles as interest rates rise to highest level since December - Fox Business</td>
+            <td>Mortgage demand tumbles as interest rates rise to highest level since December  Fox BusinessMortgage rates surge higher again, causing homebuyers to pull back  CNBCHousing Market Update: Home Prices and Mortgage Rates Rise, Pushing Would-Be Buyers to the Sidelines  Redfin News US Economy News Today: Mortgages Dip on Elevated Rates  Investopedia</td>
+            <td>Wed, 14 Feb 2024 15:25:00 GMT</td>
+      
+            <td>Fox Business</td>
+          </tr>
+          <tr>
+            <td>2 private Florida insurance companies want to increase premiums by more than 53% - WJXT News4JAX</td>
+            <td>2 private Florida insurance companies want to increase premiums by more than 53%  WJXT News4JAX Castle Key's 54% Condo Rate Hike Gets Hearing, Showing New Pressures in Florida  Insurance JournalFlorida Insurance Companies Plan Over 50 Percent Rate Rises  Newsweek</td>
+            <td>Tue, 13 Feb 2024 23:06:56 GMT</td>
+      
+            <td>WJXT News4JAX</td>
+          </tr>
+          <tr>
+            <td>Mortgage Rates Just Got Smoked by Barn Burner Inflation Report - Mortgage News Daily</td>
+            <td>Mortgage Rates Just Got Smoked by Barn Burner Inflation Report  Mortgage News DailyView Full Coverage on Google News</td>
+            <td>Tue, 13 Feb 2024 21:16:00 GMT</td>
+        
+            <td>Mortgage News Daily</td>
+          </tr>
+          <tr>
+            <td>Gold Price Forecast: Potential for Rebound or Continued Fall? - FX Empire</td>
+            <td>Gold Price Forecast: Potential for Rebound or Continued Fall?  FX EmpireCooling Fed rate-cut bets pin gold below $2,000 level, palladium jumps  CNBCGold futures fall toward ‘critical support point’ of $2,000 an ounce after inflation report  MarketWatchGold Sinks, Weighed Down by the Dollar and US Yields Post CPI  DailyFXCooling Fed rate-cut bets pin gold below $2000 level; palladium jumps  Reuters</td>
+            <td>Wed, 14 Feb 2024 21:24:00 GMT</td>
+          
+            <td>FX Empire</td>
+          </tr>
+          <tr>
+            <td>How and Why Do Consumers Use “Buy Now, Pay Later”? - Liberty Street Economics - Liberty Street Economics -</td>
+            <td>How and Why Do Consumers Use “Buy Now, Pay Later”? - Liberty Street Economics  Liberty Street Economics -Americans with low credit scores use ‘Buy Now, Pay Later’ more often  CNNIs ‘buy now, pay later’ safe? New York Fed study clashes with providers’ version of events  FortuneMany Are Addicted to “Buy Now, Pay Later” Plans, It's a Big Trap  Mish TalkPeople think buy-now-pay-later is helping them in one critical way. It’s not.  MarketWatch</td>
+            <td>Wed, 14 Feb 2024 17:32:54 GMT</td>
+            
+            <td>Liberty Street Economics -</td>
+          </tr>
+          <tr>
+            <td>Albemarle (ALB) Surpasses Q4 Earnings and Revenue Estimates - Yahoo Finance</td>
+            <td>Albemarle (ALB) Surpasses Q4 Earnings and Revenue Estimates  Yahoo FinanceAlbemarle Corp (ALB) Reports Mixed Results Amidst Market Challenges  Yahoo FinanceAlbemarle shares down on Q4 loss  XM</td>
+            <td>Wed, 14 Feb 2024 22:15:04 GMT</td>
+        
+            <td>Yahoo Finance</td>
+          </tr>
+          <tr>
+            <td>Biden administration examining role of supply chain middlemen in generic drug shortages - CNBC</td>
+            <td>Biden administration examining role of supply chain middlemen in generic drug shortages  CNBCFTC probing drug 'middlemen' over 'critical' generic shortages at hospitals: 'Endangering patients'  New York Post US Agencies Start Inquiry Into Generic Drug Shortages  The New York TimesFTC probes GPOs, drug wholesalers over antitrust concerns  Modern Healthcare</td>
+            <td>Wed, 14 Feb 2024 17:27:35 GMT</td>
+         
+            <td>CNBC</td>
+          </tr>
+          <tr>
+            <td>QuidelOrtho Corp (QDEL) Reports Mixed Results Amidst Respiratory Revenue Decline - Yahoo Finance</td>
+            <td>QuidelOrtho Corp (QDEL) Reports Mixed Results Amidst Respiratory Revenue Decline  Yahoo FinanceQuidelOrtho (NASDAQ:QDEL) Plunges as Q4 Results Disappoint - TipRanks.com  TipRanksBerman Tabacco Announces Investigation of QuidelOrtho Corporation (QDEL) for Potential Securities Law Violations  GlobeNewswireQuidelOrtho Shares Plunge on 4Q Miss, Weak Outlook  MarketWatchQuidelOrtho: Q4 Earnings Snapshot  The Washington Post</td>
+            <td>Tue, 13 Feb 2024 21:40:17 GMT</td>
+          
+            <td>Yahoo Finance</td>
+          </tr>
+          <tr>
+            <td>Wendy’s New Cinnabon Pull-Apart Breakfast Treat Available Starting February 26, 2024 - Chew Boom</td>
+            <td>Wendy’s New Cinnabon Pull-Apart Breakfast Treat Available Starting February 26, 2024  Chew BoomView Full Coverage on Google News</td>
+            <td>Wed, 14 Feb 2024 19:39:50 GMT</td>
+           
+            <td>Chew Boom</td>
+          </tr>
+          <tr>
+            <td>Bitcoin ETFs inflows snowball: Last 4 days bigger than first 4 weeks - Cointelegraph</td>
+            <td>Bitcoin ETFs inflows snowball: Last 4 days bigger than first 4 weeks  CointelegraphBitcoin ETF inflows pick up again, with BlackRock leading the way  BlockworksSpot Bitcoin ETFs Own Almost 5% of All the Bitcoin Currently in Existence  Markets InsiderBitcoin ETFs account for about 75% of new investments — CryptoQuant  Cointelegraph</td>
+            <td>Thu, 15 Feb 2024 07:52:30 GMT</td>
+           
+            <td>Cointelegraph</td>
+          </tr>
+          <tr>
+            <td>Nvidia Discloses Stakes In Arm, SoundHound AI, Nano-X - Investor's Business Daily</td>
+            <td>Nvidia Discloses Stakes In Arm, SoundHound AI, Nano-X  Investor's Business DailyAI firms surge after chip giant Nvidia discloses stake  Yahoo FinanceNvidia's maiden 13F filing sends AI-focused tech stock soaring  TheStreetNvidia discloses $147.3 million stake in Arm  Fortune</td>
+            <td>Thu, 15 Feb 2024 14:19:00 GMT</td>
+            
+            <td>Investor's Business Daily</td>
+          </tr>
+          <tr>
+            <td>Lubbock joins ERCOT, Texas’ open energy market - The Texas Tribune</td>
+            <td>Lubbock joins ERCOT, Texas’ open energy market  The Texas TribuneKCBD Investigates Powering Lubbock: Nearly half of LP&amp;L customers have not picked a new electric provider ahead of Thursday’s deadline  KCBDWhat time is Lubbock’s deadline to choose a power provider?  KLBK | KAMC | EverythingLubbock.comTexas Tech Chooses TXU Energy to Power the University System  Vistra Corp. Investor RelationsKCBD Investigates Powering Lubbock: Could a defaulted energy plan cost you more?  KWCH</td>
+            <td>Wed, 14 Feb 2024 11:00:00 GMT</td>
+         
+            <td>The Texas Tribune</td>
+          </tr>
+          <tr>
+            <td>MGM Resorts sets records following big events in Las Vegas - Fox 5 Las Vegas</td>
+            <td>MGM Resorts sets records following big events in Las Vegas  Fox 5 Las VegasMGM Resorts boasts of record earnings driven by F1 in Las Vegas  News3LVMGM Resorts International (NYSE:MGM) Q4 2023 Earnings Call Transcript  Yahoo FinanceCasino Operator MGM beats fourth-quarter estimates on China travel rebound  ReutersMGM revenues up 22% last year with F1 profits at $50 million or more  KLAS - 8 News Now</td>
+            <td>Wed, 14 Feb 2024 00:58:00 GMT</td>
+          
+            <td>Fox 5 Las Vegas</td>
+          </tr>
+          <tr>
+            <td>U.S. Treasury Debunks Narrative That Hamas Relied on Crypto to Fund Terrorism - CoinDesk</td>
+            <td>U.S. Treasury Debunks Narrative That Hamas Relied on Crypto to Fund Terrorism  CoinDeskBitcoin Favored in Human Trafficking, Child Exploitation: FinCEN Report  CoinDeskCrypto played little part in Hamas terror financing — US Treasury  CointelegraphUS Treasury targets crypto mixers with new tools to counter illicit crypto activities  CryptoSlateHouse hearing on FinCEN oversight turns into crypto debate  Blockworks</td>
+            <td>Wed, 14 Feb 2024 20:56:00 GMT</td>
+          
+            <td>CoinDesk</td>
+          </tr>
+          <tr>
+            <td>Tinder, Hinge and other dating apps encourage 'compulsive' use, lawsuit claims - ABC News</td>
+            <td>Tinder, Hinge and other dating apps encourage 'compulsive' use, lawsuit claims  ABC NewsTinder, Hinge, League dating apps encourage 'compulsive use' with 'predatory' business model: lawsuit  New York Post Tinder, other Match dating apps encourage compulsive use, lawsuit claims  ReutersTinder, Hinge, OkCupid operator sued for making dating apps addictive  Business Insider</td>
+            <td>Wed, 14 Feb 2024 22:25:26 GMT</td>
+            
+            <td>ABC News</td>
+          </tr>
+          <tr>
+            <td>FDA approves 1st medication to treat severe frostbite - ABC News</td>
+            <td>FDA approves 1st medication to treat severe frostbite  ABC NewsView Full Coverage on Google News</td>
+            <td>Wed, 14 Feb 2024 20:42:33 GMT</td>
+            
+            <td>ABC News</td>
+          </tr>
+          <tr>
+            <td>Chocolates, flowers and procrastination. For many Americans, Valentine's Day is a last-minute affair - The Associated Press</td>
+            <td>Chocolates, flowers and procrastination. For many Americans, Valentine's Day is a last-minute affair  The Associated PressLast-Minute Valentine's Day Deals: Options to Treat Your Sweetie for Less  CNET15 last-minute Valentine’s Day gifts your significant other will love  Fox News5 Amazon deals your Valentine will love  Fortune9 Tastemakers Suggest Last-Minute Gifts for Valentine’s Day  The New York Times</td>
+            <td>Wed, 14 Feb 2024 11:41:00 GMT</td>
+            
+            <td>The Associated Press</td>
+          </tr>
+          <tr>
+            <td>Japanese Yen Outlook: FX Intervention Talk Reenters the Fray - DailyFX</td>
+            <td>Japanese Yen Outlook: FX Intervention Talk Reenters the Fray  DailyFXFalling Yen: Mrs. Watanabe and Chaos Theory for the Bank of Japan  BloombergU.S. dollar rises to three-month high after inflation data, surges past 150 yen  CNBCFX Daily: Yen negatives build | articles | ING Think  ING ThinkYen's slide past ¥150 per dollar prompts stern warnings from Japan  The Japan Times</td>
+            <td>Wed, 14 Feb 2024 15:54:03 GMT</td>
+            
+            <td>DailyFX</td>
+          </tr>
+          <tr>
+            <td>Orsted gets new US offshore wind partner as $12.5bn BlackRock target buys stakes - Recharge</td>
+            <td>Orsted gets new US offshore wind partner as $12.5bn BlackRock target buys stakes  RechargeEversource wind farms find a buyer; water business next on tap  The Boston GlobeEversource Surges on Plans to Shed Water, Offshore-Wind Assets  Yahoo FinanceEversource, needing cash, will explore selling Aquarion Water  The Connecticut Mirror</td>
+            <td>Wed, 14 Feb 2024 07:58:00 GMT</td>
+           
+            <td>Recharge</td>
+          </tr>
+        </tbody>
+      </table>
+       
+</body>
+</html>
